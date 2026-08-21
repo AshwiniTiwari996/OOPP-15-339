@@ -1,9 +1,17 @@
-#include<iostream>
-
+#include <iostream>
+#include <vector>
 using namespace std;
 
+int main()
+{
+    vector<int> numbers = {10, 20, 30, 40, 50};
 
-int main(){
+    cout << "Elements of vector are:" << endl;
 
-return 0;
+    for (int x : numbers)
+    {
+        cout << x << " ";
+    }
+
+    return 0;
 }
