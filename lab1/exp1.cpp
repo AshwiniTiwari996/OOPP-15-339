@@ -16,7 +16,6 @@
 //     cout<<img<<"i"<<endl;
 // }
 
-
 //     }
 // };
 // int main(){
@@ -27,26 +26,31 @@
 //     c2.show();
 // }
 
-#include<iostream>
+#include <iostream>
 using namespace std;
-class point{
-    private:
-    int x,y;
-    public:
-    point(int x,int y){
-        this->x=x;
-        this->y=y;
+class point
+{
+private:
+    int x, y;
+
+public:
+    point(int x, int y)
+    {
+        this->x = x;
+        this->y = y;
     }
-    
-   void show(){
-        cout<<x<<endl;
-        cout<<y<<endl;
+
+    void show()
+    {
+        cout << x << endl;
+        cout << y << endl;
     }
 };
-int main(){
-    int a,b;
-    cin>>a;
-    cin>>b;
-    point p(a,b);
+int main()
+{
+    int a, b;
+    cin >> a;
+    cin >> b;
+    point p(a, b);
     p.show();
 }
