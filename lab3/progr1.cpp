@@ -18,8 +18,8 @@ void Number::input(int x, int y)
 
 void Number::show()
 {
-    cout << "a = " << a << endl;
-    cout << "b = " << b << endl;
+    cout << "a  " << a << endl;
+    cout << "b  " << b << endl;
 }
 
 int main()
