@@ -26,7 +26,7 @@ int main()
 {
     Number n;
 
-    n.input(10, 20);
+    n.input(30, 40);
     n.show();
 
     return 0;
